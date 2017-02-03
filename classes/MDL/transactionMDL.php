@@ -1,0 +1,105 @@
+<?php
+class TBookMDL{
+	public $acyear;
+	public $acmonth;
+	public $id_document;
+	public $DocRefNo;
+	public $DocDate;
+	public $id_gla;
+	public $id_location;
+	public $id_branch;
+	public $id_function;
+	public $id_expense;
+	public $id_item;
+	public $id_asset;
+	public $idnum;
+	public $quanty;
+	public $amount;
+	public $FxChnRate;
+	public $CheckNo;
+	public $CheckDate;
+	public $Bankcode;
+	public $explan01;
+	public $explan02;
+	public $explan03;
+	public $RecStat;
+	public $encoder;
+	public $dateupd;
+	public $timeupd;
+}
+class TLoanMDL{
+	public $recordid;
+	public $id_document;
+	public $CVRefNo;
+	public $DocRefNo;
+	public $DocDate;
+	public $idnum;
+	public $loantype;
+	public $amount;
+	public $IntRate;
+	public $term;
+	public $noapploans;
+	public $RecStat;
+	public $encoder;
+	public $dateupd;
+	public $timeupd;
+}
+class TBankRecon{
+	public $BankReconId;
+	public $Bankcode;
+	public $CheckNo;
+	public $CheckDate;
+	public $amount;
+	public $id_document;
+	public $DocRefNo;
+	public $DocDate;
+	public $RecStat;
+	public $encoder;
+	public $dateupd;
+	public $timeupd;
+}
+class RegistersMDL{
+	public $acyear;
+	public $acmonth;
+	public $id_document;
+	public $DocRefNo;
+}
+class PDCheck{
+	public $idpdcheck;
+	public $Bankcode;
+	public $idnum;
+	public $CheckNo;
+	public $CheckDate;
+	public $amount;
+	public $loantype;
+	public $remarks;
+	public $id_document;
+	public $DocRefNo;
+	public $RecStat;
+	public $encoder;
+	public $dateupd;
+	public $timeupd;
+}
+class Collateral{
+	public $id_collateral;
+	public $DocRefNo;
+	public $ColType;
+	public $idnum;
+	public $name2;
+	public $TCTNo;
+	public $Area;
+	public $Location;
+	public $MarketValue;
+	public $CertOfOwner;
+	public $particular;
+	public $plateno;
+	public $CRNo;
+	public $CRDate;
+	public $ORNo;
+	public $ORDate;
+	public $SerialNo;
+	public $SerialDate;
+	public $Model;
+	public $Remarks;
+}
+?>
